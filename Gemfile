@@ -24,6 +24,13 @@ group :development, :test do
 end
 
 
+group :production do
+  gem 'pg'
+  gem 'unicorn'
+  gem 'cloudinary'
+  gem 'rails_12factor'
+end
+
 # Twitter bootstrap
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'autoprefixer-rails'
