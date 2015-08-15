@@ -36,6 +36,8 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
+    acts_as_commentable (4.0.2)
+    acts_as_votable (0.10.0)
     arel (6.0.3)
     autoprefixer-rails (5.2.1.1)
       execjs
@@ -47,6 +49,8 @@ GEM
       rack (>= 0.9.0)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
+    bootstrap-datepicker-rails (1.4.0)
+      railties (>= 3.0)
     bootstrap-sass (3.2.0.2)
       sass (~> 3.2)
     builder (3.2.2)
@@ -171,8 +175,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  acts_as_commentable
+  acts_as_votable (~> 0.10.0)
   autoprefixer-rails
   better_errors
+  bootstrap-datepicker-rails
   bootstrap-sass (~> 3.2.0)
   byebug
   carrierwave

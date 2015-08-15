@@ -12,12 +12,6 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-# Twitter bootstrap
-gem 'bootstrap-sass', '~> 3.2.0'
-gem 'autoprefixer-rails'
-gem 'font-awesome-rails'
-gem 'devise'
-
 group :development do
   gem 'better_errors'
 end
@@ -29,4 +23,14 @@ group :development, :test do
   gem 'spring'
 end
 
+
+# Twitter bootstrap
+gem 'bootstrap-sass', '~> 3.2.0'
+gem 'autoprefixer-rails'
+gem 'font-awesome-rails'
+gem 'devise'
+
 gem 'carrierwave'
+gem 'bootstrap-datepicker-rails'
+gem 'acts_as_votable', '~> 0.10.0'
+gem 'acts_as_commentable'
